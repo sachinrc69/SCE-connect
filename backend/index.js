@@ -21,7 +21,7 @@ app.use((err, req, res, next) => {
   res.status(err.statusCode).json({ message: err.message });
 });
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URL)
 
   .then(() => console.log("CONNECTED TO MDB"))
   .catch((err) => console.log("Error connecting to mdb"));
