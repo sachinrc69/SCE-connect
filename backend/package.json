@@ -1,4 +1,5 @@
 {
+  "proxy": "https://sce-connect-nlrwvvu8v-sachin-ratnu-chavans-projects.vercel.app",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
