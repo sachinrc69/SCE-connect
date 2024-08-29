@@ -6,6 +6,9 @@ const deptRoutes = require("./routes/dept");
 const postRoutes = require("./routes/post");
 const userRoutes = require("./routes/user");
 const cors = require("cors");
+
+const app = express();
+
 app.use(
   cors({
     origin: "https://sce-connect-3bdd5.web.app/",
@@ -14,7 +17,6 @@ app.use(
     credentials: true,
   })
 );
-const app = express();
 require("dotenv").config();
 app.use(express.json());
 app.use(cors());
