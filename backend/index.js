@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://sce-connect-3bdd5.web.app",
+    origin: "sce-connect-5rjh.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
